@@ -22,7 +22,7 @@ CREATE TABLE `article_journal` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 ## PHPMYADMIN
-http://<ipaddress>:8080
+http://ipaddress:8080
 
 Datenbank: mariadb
 Benutzername: root
@@ -40,10 +40,10 @@ INSERT INTO `article_journal` (`article_id`, `action_type`, `action_time`) VALUE
 ```
 
 ## ElasticSearch Node
-http://<ipaddress>:9200/_cat/nodes?v&pretty
+http://ipaddress:9200/_cat/nodes?v&pretty
 
 ## Kibana
-http://<ipaddress>:5601/app/dev_tools#/console
+http://ipaddress:5601/app/dev_tools#/console
 
 ```
 GET /article/_search
